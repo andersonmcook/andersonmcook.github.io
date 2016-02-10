@@ -1,0 +1,12 @@
+html {
+  background-image: url("../img/bg.idea-rev.png");
+}
+
+.navbar-default {
+  background: white;
+  border-color: #808080;
+}
+
+.navbar-default, .navbar-brand {
+  color: black;
+}
