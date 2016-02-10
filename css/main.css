@@ -22,6 +22,11 @@ html {
 .list-group-item {
   border-radius: 0 !important;
   border: .125em solid black;
-  margin: 1em;
+  margin: 1em 0;
   text-align: center;
+  color: black;
 }
+
+/*.list-group-item::before {
+  content: "> ";
+}*/
