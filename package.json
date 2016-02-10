@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonmcook/personal-website.git"
+  },
+  "author": "Anderson Cook <andersonmcook@gmail.com> (https://github.com/andersonmcook)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersonmcook/personal-website/issues"
+  },
+  "homepage": "https://github.com/andersonmcook/personal-website#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
