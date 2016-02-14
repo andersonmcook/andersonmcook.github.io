@@ -31,11 +31,6 @@ html {
   color: black;
 }
 
-/*.list-group-item::before {
-  content: "> ";
-}*/
-
-
 /*NEW ORDER STYLING*/
 #squares {
   position: fixed;
