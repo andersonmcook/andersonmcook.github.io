@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('%c contact me at andersonmcook@gmail.com ', 'background: black; color: white; font-family: monospace; font-size: 1.5em');
+
 // sets soft-light blend mode to background
 function softLight (color) {
   bg.style.background = `url("../img/bg.idea-rev.png"), ${color}`;
