@@ -8,13 +8,15 @@ const options = {
   revbg: 'url("../img/bg.idea-rev.png")',
   blend: 'soft-light',
   initial: 'initial',
-  bg: 'url("../img/bg.idea.png")'
+  bg: 'url("../img/bg.idea.png")',
+  size: 'cover'
 };
 
 // sets soft-light blend mode to background
 function softLight (color) {
   bg.style.background = `${options.revbg}, ${color}`;
   bg.style.backgroundBlendMode = options.blend;
+  bg.style.backgroundSize = options.size;
   container.style.mixBlendMode = options.blend;
 
   if (color === 'white') {
@@ -26,12 +28,14 @@ function softLight (color) {
 function reverse () {
   container.style.mixBlendMode = options.initial;
   bg.style.background = options.bg;
+  bg.style.backgroundSize = options.size;
 }
 
 // reset
 function reset () {
-  bg.style.background = options.revbg;
+  bg.style.background = options.bg;
   bg.style.backgroundBlendMode = options.initial;
+  bg.style.backgroundSize = options.size;
   container.style.mixBlendMode = options.initial;
 }
 
