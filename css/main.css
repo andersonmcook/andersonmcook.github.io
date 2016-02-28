@@ -2,6 +2,12 @@ html {
   background-image: url("../img/bg.idea-rev.png");
 }
 
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+}
+
 .navbar {
   border: none !important;
 }
@@ -25,7 +31,8 @@ html {
 
 .list-group-item {
   border-radius: 0 !important;
-  border: .125em solid black;
+  /*border: .125em solid black;*/
+  border: none !important;
   margin: 1em 0;
   text-align: center;
   color: black;
