@@ -1,5 +1,5 @@
 html {
-  background-image: url("../img/bg.idea.png");
+  background: url("../img/bg.idea.png") no-repeat;
   background-size: cover;
 }
 

@@ -9,7 +9,8 @@ const options = {
   blend: 'soft-light',
   initial: 'initial',
   bg: 'url("../img/bg.idea.png")',
-  size: 'cover'
+  size: 'cover',
+  repeat: 'no-repeat'
 };
 
 // sets soft-light blend mode to background
@@ -17,6 +18,7 @@ function softLight (color) {
   bg.style.background = `${options.revbg}, ${color}`;
   bg.style.backgroundBlendMode = options.blend;
   bg.style.backgroundSize = options.size;
+  bg.style.backgroundRepeat = options.repeat;
   container.style.mixBlendMode = options.blend;
 
   if (color === 'white') {
@@ -29,6 +31,7 @@ function reverse () {
   container.style.mixBlendMode = options.initial;
   bg.style.background = options.bg;
   bg.style.backgroundSize = options.size;
+  bg.style.backgroundRepeat = options.repeat;
 }
 
 // reset
@@ -36,6 +39,7 @@ function reset () {
   bg.style.background = options.bg;
   bg.style.backgroundBlendMode = options.initial;
   bg.style.backgroundSize = options.size;
+  bg.style.backgroundRepeat = options.repeat;
   container.style.mixBlendMode = options.initial;
 }
 
