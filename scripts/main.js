@@ -1,5 +1,12 @@
 'use strict';
 
+$( document ).ready(function() {
+    console.log( "ready!" );
+// $(function () {
+//   $('[data-toggle="tooltip"]').tooltip();
+// });
+
+
 // say hello
 console.log('%c contact me at andersonmcook@gmail.com ', 'background: black; color: white; font-family: monospace; font-size: 1.5em');
 
@@ -56,3 +63,7 @@ function clicker (event) {
     reset();
   }
 }
+
+$('[data-toggle="tooltip"]').tooltip();
+
+});

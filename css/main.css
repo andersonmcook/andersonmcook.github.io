@@ -23,6 +23,25 @@ body {
   color: black !important;
 }
 
+.tooltip-inner {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+   padding: 1em;
+   width: 200%;
+   border-radius: 0;
+}
+
+.tool-tip {
+  border-radius: 0;
+}
+
+.tool-tip.in {
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+
+.tool-tip.bottom {
+  margin: 2em !important;
+}
 
 #links {
   vertical-align: 50%;
