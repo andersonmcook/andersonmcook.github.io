@@ -22,16 +22,19 @@ body {
 .navbar-default, .navbar-brand {
   color: black !important;
 }
-
+/* TOOLTIPS */
 .tooltip-inner {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
    padding: 1em;
-   width: 200%;
+   max-width: 400px;
    border-radius: 0;
+   font-size: 1em;
 }
 
 .tool-tip {
   border-radius: 0;
+  width: 500px;
+  opacity: 1 !important;
 }
 
 .tool-tip.in {
@@ -40,8 +43,9 @@ body {
 }
 
 .tool-tip.bottom {
-  margin: 2em !important;
+  margin-top: -2em !important;
 }
+/* END TOOLTIPS */
 
 #links {
   vertical-align: 50%;
