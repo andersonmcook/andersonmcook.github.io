@@ -1,4 +1,8 @@
-html {
+/*html {
+  background: url("../img/bg.idea.png") no-repeat;
+  background-size: cover;
+}*/
+#bg {
   background: url("../img/bg.idea.png") no-repeat;
   background-size: cover;
 }
@@ -48,8 +52,8 @@ body {
 }
 
 .tool-tip.in {
-  opacity: 1;
-  filter: alpha(opacity=1);
+  filter: alpha(opacity=100) !important;
+  opacity: 1 !important;
 }
 
 .tool-tip.bottom {
