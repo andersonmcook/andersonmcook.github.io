@@ -1,3 +1,4 @@
+;(function () {
 'use strict';
 
 $( document ).ready(function() {
@@ -64,6 +65,10 @@ function clicker (event) {
   }
 }
 
-$('[data-toggle="tooltip"]').tooltip();
+$('[data-toggle="tooltip"]').tooltip({
+  animation: false,
+  placement: "bottom"
+});
 
 });
+})();

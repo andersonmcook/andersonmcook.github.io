@@ -10,6 +10,7 @@ body {
   letter-spacing: .25em;
 }
 
+/* BOOTSTRAP */
 .navbar {
   border: none !important;
 }
@@ -22,18 +23,27 @@ body {
 .navbar-default, .navbar-brand {
   color: black !important;
 }
+
+.col-sm-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* END BOOTSTRAP */
+
 /* TOOLTIPS */
 .tooltip-inner {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
    padding: 1em;
-   max-width: 400px;
+   /*max-width: 400px;*/
+   max-width: 100%;
    border-radius: 0;
    font-size: 1em;
 }
 
 .tool-tip {
   border-radius: 0;
-  width: 500px;
+  /*width: 500px;*/
   opacity: 1 !important;
 }
 
