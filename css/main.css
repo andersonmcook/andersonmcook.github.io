@@ -16,14 +16,8 @@ body {
 /*TEMP?*/
 #contact {
   position: fixed;
-  bottom: 0;
-  background: black;
-  color: white;
-}
-
-#contact:hover {
-  background: white;
-  color: black;
+  bottom: 1em;
+  left: 1em;
 }
 
 /*END TEMP?*/
