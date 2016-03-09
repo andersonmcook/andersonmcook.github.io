@@ -13,6 +13,20 @@ body {
   text-transform: uppercase;
   letter-spacing: .25em;
 }
+/*TEMP?*/
+#contact {
+  position: fixed;
+  bottom: 0;
+  background: black;
+  color: white;
+}
+
+#contact:hover {
+  background: white;
+  color: black;
+}
+
+/*END TEMP?*/
 
 /* BOOTSTRAP */
 .navbar {

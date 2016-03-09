@@ -52,7 +52,6 @@ $(document).ready(function() {
   // grabs color attribute and passes it into softLight()
   function clicker (event) {
     const color = event.target.getAttribute('color');
-    console.log(event.target.tagName);
     if (color !== null) {
       color !== 'yellow' ? softLight(color) : reverse();
     } else if (event.target.tagName === 'HTML'){
