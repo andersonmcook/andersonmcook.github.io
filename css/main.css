@@ -101,6 +101,7 @@ a:hover, a:visited, a:active, a:focus {
   object-fit: contain;
   display: flex;
   flex-wrap: wrap;
+  cursor: crosshair;
 }
 
 .twobyone {
