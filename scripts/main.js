@@ -62,7 +62,8 @@ $(document).ready(function() {
   // enables tooltips
   $('[data-toggle="tooltip"]').tooltip({
     animation: false,
-    placement: "bottom"
+    placement: "bottom",
+    trigger: "hover"
   });
 
 });
